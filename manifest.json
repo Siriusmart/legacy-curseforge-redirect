@@ -1,7 +1,7 @@
 {
-  "name": "Old Reddit Redirect",
-  "description": "Ensure Reddit always loads the old design",
-  "version": "1.6.1",
+  "name": "Legacy Curseforge Redirect",
+  "description": "Ensure Curseforge always loads the legacy design",
+  "version": "1.0.0",
   "manifest_version": 2,
   "background": { "scripts": ["background.js"] },
   "icons": {
@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://old.reddit.com/*"],
+      "matches": ["*://legacy.curseforge.com/*"],
       "css": ["styles.css"],
       "run_at": "document_start"
     }
@@ -18,10 +18,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://reddit.com/*",
-    "*://www.reddit.com/*",
-    "*://np.reddit.com/*",
-    "*://amp.reddit.com/*",
-    "*://i.reddit.com/*"
+    "*://curseforge.com/*",
+    "*://www.curseforge.com/*"
   ]
 }

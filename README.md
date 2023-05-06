@@ -1,25 +1,18 @@
-# Old Reddit Redirect
+# Legacy CurseForge Redirect
 
-[Chrome extension](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
+[Firefox extension](https://addons.mozilla.org/firefox/addon/legacy-curseforge-redirect)
 
-[Firefox extension](https://addons.mozilla.org/firefox/addon/old-reddit-redirect)
+Dislike CurseForge's redesign? Legacy CurseForge Redirect will ensure that you always load the legacy (legacy.curseforge.com) design instead.
 
-Dislike Reddit's redesign? Old Reddit Redirect will ensure that you always load the old (old.reddit.com) design instead.
+Will force all curseforge.com usage to legacy.curseforge.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in private windows.
 
-Will force all reddit.com usage to old.reddit.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
+As well as remove the "go to the new website" button.
 
 #### Redirected domains
 
-- `reddit.com`
-- `www.reddit.com`
-- `np.reddit.com`
-- `amp.reddit.com`
-- `i.reddit.com`
-
-#### Whitelisted domains
-
-- `new.reddit.com`
+- `curseforge.com`
+- `www.curseforge.com`
 
 ## License
 
-Code copyright Tom Watson. Code released under [the MIT license](LICENSE.txt).
+Code released under [GPL v3](LICENSE).

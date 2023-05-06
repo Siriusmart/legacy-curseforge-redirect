@@ -1,3 +1,4 @@
 *.swp
 *.zip
 .DS_Store
+/web-ext-artifacts
